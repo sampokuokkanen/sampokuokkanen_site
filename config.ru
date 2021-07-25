@@ -5,7 +5,7 @@ class App < Roda
     @sampo = 'Sampo Kuokkanen'
 
     r.get "" do
-      "Hello , my name is #{@sampo}. Welcome to my website!"
+      "<p>Hello , my name is #{@sampo}. Welcome to my website!</p>"
     end
 
     r.get "hello" do
